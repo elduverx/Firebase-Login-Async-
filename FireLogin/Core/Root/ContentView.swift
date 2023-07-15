@@ -6,17 +6,31 @@
 //
 
 import SwiftUI
+import Firebase
+
+
 
 struct ContentView: View {
-    var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+  @EnvironmentObject var viewModel: AuthViewModel
+  var body: some View {
+    Group{
+      if viewModel.userSession != nil{
+        TabView{
+          ProfileView().tabItem {
+            Image(systemName: "house.fill")
+              Text("home")
+          }
+          .ignoresSafeArea()
+          HomeView().tabItem {
+            Image(systemName: "person.fill")
+              Text("casa")
+          }
         }
-        .padding()
+      } else{
+        LoginView()
+      }
     }
+  }
 }
 
 struct ContentView_Previews: PreviewProvider {
