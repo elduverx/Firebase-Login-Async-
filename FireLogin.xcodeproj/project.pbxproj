@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C665653E2A63126D009EDCDB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C665653D2A63126D009EDCDB /* GoogleService-Info.plist */; };
 		C6698D2F2A56E45A0010B116 /* FireLoginApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6698D2E2A56E45A0010B116 /* FireLoginApp.swift */; };
 		C6698D312A56E45A0010B116 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6698D302A56E45A0010B116 /* ContentView.swift */; };
 		C6698D332A56E45C0010B116 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6698D322A56E45C0010B116 /* Assets.xcassets */; };
@@ -17,7 +18,6 @@
 		C6698D4B2A5A15EB0010B116 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6698D4A2A5A15EB0010B116 /* ProfileView.swift */; };
 		C6698D4D2A5A16460010B116 /* SettingsRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6698D4C2A5A16460010B116 /* SettingsRowView.swift */; };
 		C6698D4F2A5B2CFE0010B116 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6698D4E2A5B2CFE0010B116 /* User.swift */; };
-		C6698D512A5B72D30010B116 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C6698D502A5B72D30010B116 /* GoogleService-Info.plist */; };
 		C6698D542A5B73E40010B116 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = C6698D532A5B73E40010B116 /* FirebaseAnalytics */; };
 		C6698D562A5B73E40010B116 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = C6698D552A5B73E40010B116 /* FirebaseAuth */; };
 		C6698D582A5B73E40010B116 /* FirebaseDatabaseSwift in Frameworks */ = {isa = PBXBuildFile; productRef = C6698D572A5B73E40010B116 /* FirebaseDatabaseSwift */; };
@@ -37,6 +37,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C665653D2A63126D009EDCDB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		C6698D2B2A56E45A0010B116 /* FireLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FireLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6698D2E2A56E45A0010B116 /* FireLoginApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FireLoginApp.swift; sourceTree = "<group>"; };
 		C6698D302A56E45A0010B116 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -48,7 +49,6 @@
 		C6698D4A2A5A15EB0010B116 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		C6698D4C2A5A16460010B116 /* SettingsRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsRowView.swift; sourceTree = "<group>"; };
 		C6698D4E2A5B2CFE0010B116 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
-		C6698D502A5B72D30010B116 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		C6698D5F2A5C1BDF0010B116 /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
 		C683A4642A630458000194B7 /* criptoCoin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = criptoCoin.swift; sourceTree = "<group>"; };
 		C683A4662A63052F000194B7 /* TopMoverItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopMoverItemView.swift; sourceTree = "<group>"; };
@@ -103,7 +103,7 @@
 				C6698D3E2A56E48B0010B116 /* Components */,
 				C6698D3C2A56E4800010B116 /* Core */,
 				C6698D322A56E45C0010B116 /* Assets.xcassets */,
-				C6698D502A5B72D30010B116 /* GoogleService-Info.plist */,
+				C665653D2A63126D009EDCDB /* GoogleService-Info.plist */,
 				C6698D342A56E45C0010B116 /* Preview Content */,
 			);
 			path = FireLogin;
@@ -282,7 +282,7 @@
 			files = (
 				C6698D362A56E45C0010B116 /* Preview Assets.xcassets in Resources */,
 				C6698D332A56E45C0010B116 /* Assets.xcassets in Resources */,
-				C6698D512A5B72D30010B116 /* GoogleService-Info.plist in Resources */,
+				C665653E2A63126D009EDCDB /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
